@@ -53,11 +53,11 @@ internal bool UpsampleHappensBeforePost()
 
 With:
 ```csharp
-public bool tndUpscalerEnabled = false;
+public bool TNDUpscalerEnabled = false;
 
 internal bool IsTNDUpscalerEnabled()
 {
-    return tndUpscalerEnabled;
+    return TNDUpscalerEnabled;
 }
 
 internal bool UpsampleHappensBeforePost()
